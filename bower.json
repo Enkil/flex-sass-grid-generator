@@ -1,7 +1,7 @@
 {
   "name": "flex-sass-grid-generator",
   "description": "Grid generator, written in Sass and utiliziting FlexBox",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "main": "src/scss/flex-sass-grid-generator.scss",
   "homepage": "http;//enkil.github.io/flex-sass-grid-generator",
   "repository": {
@@ -31,7 +31,7 @@
     "test",
     "tests"
   ],
-  "devDependencies": {
+  "dependencies": {
     "normalize-scss": "~3.0.3"
   }
 }
