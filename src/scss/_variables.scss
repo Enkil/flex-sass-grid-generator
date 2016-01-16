@@ -1,0 +1,64 @@
+/// @group variables
+
+$base-font-size:              16;
+$grid-columns:                12 !default;
+$grid-gutter-width:           1.875rem !default; // 30px
+
+
+/*
+  Breakpoints variables
+  =====================
+
+  Provided variables for media-query breakpoints
+*/
+$screen-xs:                   0; // Extra small screen / phone
+$screen-sm:                   (480 / $base-font-size) +rem; // Small screen / phone
+$screen-md:                   (768 / $base-font-size) +rem; // Medium screen / tablet
+$screen-lg:                   (992 / $base-font-size) +rem; // Large screen / desktop
+$screen-xl:                   (1200 / $base-font-size) +rem; // Extra large screen / wide desktop
+$screen-xxl:                  (1890 / $base-font-size) +rem; // Super large screen / extra wide desktop
+
+
+/*
+  Breakpoints variables Sass map
+  ==============================
+
+  Provided variables for media-query breakpoints array
+*/
+$grid-breakpoints: (
+        xs:                   $screen-xs,
+        sm:                   $screen-sm,
+        md:                   $screen-md,
+        lg:                   $screen-lg,
+        xl:                   $screen-xl,
+        xxl:                  $screen-xxl
+) !default;
+
+
+/*
+  Container widths variables
+  =====================
+
+  Provided variables for container widths
+*/
+$container-max-width-sm:      calc(#{$screen-sm} - #{$grid-gutter-width});
+$container-max-width-md:      calc(#{$screen-md} - #{$grid-gutter-width});
+$container-max-width-lg:      calc(#{$screen-lg} - #{$grid-gutter-width});
+$container-max-width-xl:      calc(#{$screen-xl} - #{$grid-gutter-width});
+$container-max-width-xxl:     calc(#{$screen-xxl} - #{$grid-gutter-width});
+
+
+/*
+  Grid containers
+  ===============
+
+  Define the maximum width of `.container` for different screen sizes.
+*/
+$container-max-widths: (
+        sm: $container-max-width-sm,
+        md: $container-max-width-md,
+        lg: $container-max-width-lg,
+        xl: $container-max-width-xl,
+        xxl: $container-max-width-xxl
+) !default;
+

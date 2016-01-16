@@ -1,0 +1,29 @@
+{
+  "name": "flex-sass-grid-generator",
+  "version": "0.7.0",
+  "description": "Grid generator, written in Sass and utiliziting FlexBox",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-csscomb": "^3.0.6",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-jade": "^1.1.0",
+    "gulp-minify-css": "^1.2.3",
+    "gulp-newer": "^1.1.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-prettify": "^0.4.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.1.1",
+    "gulp-shell": "^0.5.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-util": "^3.0.7",
+    "require-dir": "^0.3.0",
+    "styledocco": "^0.6.6"
+  }
+}

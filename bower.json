@@ -1,0 +1,37 @@
+{
+  "name": "flex-sass-grid-generator",
+  "description": "Grid generator, written in Sass and utiliziting FlexBox",
+  "version": "0.7.0",
+  "main": "src/scss/flex-sass-grid-generator.scss",
+  "homepage": "http;//enkil.github.io/flex-sass-grid-generator",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Enkil/flex-sass-grid-generator.git"
+  },
+  "authors": [
+    "Igor [Enkil] Timohin <timohin.i@gmail.com>"
+  ],
+  "keywords": [
+    "grid",
+    "generator",
+    "flexbox",
+    "flex",
+    "sass",
+    "scss",
+    "grid-generator",
+    "framework",
+    "web"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "normalize-scss": "~3.0.3"
+  }
+}
