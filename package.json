@@ -1,6 +1,6 @@
 {
   "name": "flex-sass-grid-generator",
-  "version": "0.8.1",
+  "version": "0.8.2",
   "description": "Grid generator, written in Sass and utiliziting FlexBox",
   "main": "gulpfile.js",
   "scripts": {
