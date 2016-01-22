@@ -409,12 +409,12 @@ html {
     padding-right : .9375rem; 
     padding-left : .9375rem;
 }
-@media (min-width: 540) {
+@media (min-width: 540px) {
     .container {
         max-width : 480px;
     }
 }
-@media (min-width: 980) {
+@media (min-width: 980px) {
     .container {
         max-width : 768px;
     }
@@ -497,7 +497,7 @@ html {
 
         -ms-flex-wrap : nowrap;
 }
-@media (min-width: 540) {
+@media (min-width: 540px) {
     .row.-sm-top {
         -webkit-align-items : flex-start;
                 align-items : flex-start; 
@@ -540,7 +540,7 @@ html {
             -ms-flex-wrap : nowrap;
     }
 }
-@media (min-width: 980) {
+@media (min-width: 980px) {
     .row.-md-top {
         -webkit-align-items : flex-start;
                 align-items : flex-start; 
@@ -940,7 +940,7 @@ html {
 .column.-xs-offset-11 {
     margin-left : 91.66667%;
 }
-@media (min-width: 540) {
+@media (min-width: 540px) {
     .column.-sm-1 {
         -webkit-flex : 0 0 8.33333%;
             -ms-flex : 0 0 8.33333%;
@@ -1164,7 +1164,7 @@ html {
         margin-left : 91.66667%;
     }
 }
-@media (min-width: 980) {
+@media (min-width: 980px) {
     .column.-md-1 {
         -webkit-flex : 0 0 8.33333%;
             -ms-flex : 0 0 8.33333%;
@@ -2074,7 +2074,7 @@ html {
 
     -webkit-box-ordinal-group : 2;
 }
-@media (min-width: 540) {
+@media (min-width: 540px) {
     .column.-sm-first {
         -webkit-order : -1;
         -ms-flex-order : -1;
@@ -2090,7 +2090,7 @@ html {
         -webkit-box-ordinal-group : 2;
     }
 }
-@media (min-width: 980) {
+@media (min-width: 980px) {
     .column.-md-first {
         -webkit-order : -1;
         -ms-flex-order : -1;
@@ -2184,7 +2184,7 @@ html {
 
     -ms-flex-item-align : stretch;
 }
-@media (min-width: 540) {
+@media (min-width: 540px) {
     .column.-sm-top {
         -webkit-align-self : flex-start;
                 align-self : flex-start; 
@@ -2216,7 +2216,7 @@ html {
         -ms-flex-item-align : stretch;
     }
 }
-@media (min-width: 980) {
+@media (min-width: 980px) {
     .column.-md-top {
         -webkit-align-self : flex-start;
                 align-self : flex-start; 
